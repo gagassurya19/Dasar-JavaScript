@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Dasar Javscript</title>
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        .base{
+            text-align: justify;
+            margin: 20px;
+            padding: 30px;
+            width: 380px;
+            height: 240px;
+            overflow: auto;
+            float: left;
+            border-radius: 11px;
+            box-shadow: 0px 7px 17px -1px rgba(50, 50, 50, 0.37);
+            transition: 0.5s;
+        }
+        .base:hover{
+            box-shadow: 0px 7px 17px -1px rgba(167, 167, 167, 0.37);
+            transition: 0.5s;
+        }
+        .base h1{
+            margin: 0;
+            margin-right: 15px;
+            float: left;
+        }
+        .base h2{
+            margin-right: 15px;
+            float: left;
+        }
+        .base .start{
+            clear: both;
+            border-top: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="base">
+        <h1>Dasar JavaScript</h1>
+        <p>Pak Zakaria</p>
+        <div class="start">
+            <p>Start : 20/07/2020</p>
+            <p>End : 21/07/2020</p>
+            <h3>Kesulitan :</h3>
+            <p>Tidak paham tentang geometri, sudah cari tutorial geometri tetap gelap pak otak saya <h3>SOLVED</h3></p>
+        </div>
+    </div>
+    <div class="base">
+        <h2 id="totalPakArman"></h2>
+        <div class="start">
+            <p>Pak Arman akan membeli tanah berukuran 20,5m x 30m dengan harga Rp 1.500.000 per meter persegi. Dalam pembelian tanah tersebut ditambahkan PPN sebesar 15%. Buatlah sebuah program menggunakan Javascript untuk membantu Pak Arman mengetahui nominal yang harus dibayarkan!</p>
+        </div>
+    </div>
+    <div class="base">
+        <h2 id="totalBuSusi"></h2>
+        <div class="start">
+            <p>Bu Astuti membeli sembako dengan daftar seperti yang ditunjukkan pada array objek di atas. Buatlah sebuah code untuk membantu Bu Astuti menghitung total belanja yang harus dibayarkan!</p>
+        </div>
+    </div>
+    <div class="base">
+        <h2 id="bmi"></h2>
+        <div class="start">
+            <p>Rhodey mempunyai tinggi badan 170 cm dan berat badan 90 Kg. Rhodey ingin mengetahui status kondisi tubuhnya menggunakan rumus BMI seperti berikut ini.</p>
+        </div>
+    </div>
+    <div class="base">
+        <h1>See the console</h1>
+    </div>
+    <Script src="PakArman.js"></Script>
+    <Script src="BuAstuti.js"></Script>
+    <script src="Bmi.js"></script>
+    <script src="ClassDiagram.js"></script>
+    <script src="Geometri.js"></script>
+</body>
+</html>
